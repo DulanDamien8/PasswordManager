@@ -13,9 +13,6 @@ add_executable(nameValidation nameValidation.c)
 add_executable(PasswordValidation PasswordValidation.c)
 add_executable(main main.c)
 
-add_executable(TestCode TestCode.c)
-add_executable(testSystem testSystem.c)
-
 # Link OpenSSL libraries
 #target_link_libraries(TestCode ${OPENSSL_LIBRARIES})
 #target_link_libraries(testSystem ${OPENSSL_LIBRARIES})

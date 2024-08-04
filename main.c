@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 #include "nameValidation.c"
 #include "PasswordValidation.c"
 #include "PassPhraseSystem.c"
