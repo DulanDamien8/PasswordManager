@@ -1,0 +1,13 @@
+1) Fix the PassPhrase Login system, by making sure that it's prompted first instead of
+   being prompted for the website name first
+
+2) Then fix the passphrase system by removing the "Entire word is uppercase part"
+
+3) Implement a word recheck feature, so users can't have the same word in the phrase, in this way
+   they will have to have unique words for each word on the phrase.
+
+4) Implement simple login WITH HARDCODED CREDENTIALS ONLY FOR TESTING THE EFFECTIVENESS OF
+   ACCOUNT RECOVERY WITH PASSPHRASE RECOVERY METHOD.
+
+5) Implement the PassPhrase Feature to work properly so that in case users forget their login
+   they can use their passphrase to recover their account.

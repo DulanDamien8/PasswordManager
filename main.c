@@ -46,10 +46,18 @@ int main(void){
         phrase_Validation(buffers[i], MAX_BUFFER_SIZE);
     }
 
-    printf("*****Your Information*****\n\n");
-    printf("Site name           : %s\n", s1.name);
-    printf("Password            : %s\n", s2.password);
-    printf("Your pass phrase is : %s %s %s %s\n", buffer1,buffer2,buffer3,buffer4);
+    FILE * fptr = fopen("Output.txt", "a");
 
+    if (fptr == NULL) {
+        printf("Error Opening File");
+        return 1;
+    }
+
+    fprintf(fptr, "*****Your Information*****\n\n");
+    fprintf(fptr, "Site name           : %s\n", s1.name);
+    fprintf(fptr, "Password            : %s\n", s2.password);
+    fprintf(fptr, "Your pass phrase is : %s %s %s %s\n\n", buffer1,buffer2,buffer3,buffer4);
+
+    fclose(fptr);
     return 0;
 }
