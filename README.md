@@ -1,6 +1,8 @@
 Testing
 
-### How to install on Linux
+This is a project that I do to get familiarize my self with the C programming language. 
+
+### How to install
 
 1) Open Terminal
 2) Type in, git clone https://github.com/DulanDamien8/PasswordManager.git
