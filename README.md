@@ -1,6 +1,6 @@
 Testing
 
-This is a project that I do to get familiarize my self with the C programming language. 
+This is a project that I do to get familiarize my self with the C programming language and is by no means a secure implementation of a real password manager.
 
 ### How to install
 
