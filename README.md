@@ -1,5 +1,3 @@
-Testing
-
 This is a project that I do to familiarize my self with the programming concepts of C and is by no means a secure implementation of a real password manager.
 
 ### How to install
